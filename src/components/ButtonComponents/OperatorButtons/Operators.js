@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
 
 //import any components needed
+import { operators } from '../src/data.js';
 
 //Import your array data to from the provided data file
 
