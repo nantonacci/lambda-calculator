@@ -1,0 +1,223 @@
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my code */
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+
+.container {
+  height: 708px;
+  width: 470px;
+  border: 2px solid #808080;
+  background-color: #bb1233;
+  border-radius: 15px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  padding: 30px 30px 20px;
+}
+
+.logo {
+  height: 38px;
+}
+.dispContainer {
+  display: flex;
+
+  justify-content: center;
+}
+
+.display {
+  background-color: #2d2829;
+  width: 405px;
+  height: 96px;
+  border-radius: 666px;
+  margin-bottom: 20px;
+}
+
+.display p {
+  padding: 25px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.calcContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.left {
+  width: 320px;
+  margin-left: 30px;
+}
+
+.right {
+  width: 90px;
+  margin-right: 25px;
+}
+
+button {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin: 10px 22px 0 0;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px #420108;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25pt;
+}
+
+.numberButton {
+  background-color: #113c78;
+}
+
+.numberButton:nth-child(10) {
+  width: 190px;
+  border-radius: 666px;
+}
+
+.operatorButton {
+  background-color: #3db5e5;
+  margin: ;
+}
+.specialButton {
+  background-color: #2061b0;
+}
