@@ -1,0 +1,44 @@
+body {
+  color: white;
+}
+
+.container {
+  height: 708px;
+  width: 470px;
+  border: 2px solid #808080;
+  background-color: #bb1233;
+  border-radius: 15px;
+}
+
+.logo-container {
+  padding: 30px;
+}
+
+.logo {
+  height: 38px;
+}
+
+.display {
+  background-color: #2d2829;
+  width: 405px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+button {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.numberButton {
+  background-color: #113c78;
+}
+
+.operatorButton {
+  background-color: #3db5e5;
+}
+.specialButton {
+  background-color: #2061b0;
+}
